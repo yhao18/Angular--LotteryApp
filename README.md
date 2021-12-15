@@ -9,3 +9,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Reinstall all your dependencies by running the following command **npm i**
 1. Start Angular project by running **ng serve --port 3001 --open**
 
+## Link to Netlify Project
+https://brave-jepsen-c9f0cc.netlify.app
