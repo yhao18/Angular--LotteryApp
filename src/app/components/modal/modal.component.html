@@ -1,0 +1,58 @@
+<div id="modalDisplay" [ngStyle] ="{'display':modalDisplay===false ? 'none': 'block'}">
+
+    <div class="modalContainer">
+
+        <div class="modalHead">
+
+            Cash
+        
+        </div>
+        
+        <div class="modalBody">
+        
+            <div class="calculatePart">
+                <div id="header">
+                    <h3>Enter Amount Received</h3>
+                </div>
+                
+                <div class="calculateBody">
+                    
+                        <div class="label">Total</div>
+                        <div>${{betValue}}</div>
+                    
+        
+                
+                        <div class="label">Received</div>
+                        <div class="inputBox" >${{payAmount()}}</div>
+                    
+        
+                    
+                        <div class="label">Change</div>
+                        <div class="inputBox">${{changeAmount()}}</div>
+                    
+                </div>
+                <div class="buttons">
+
+                    <button class="modalButton" [routerLink]="['/comfirmation']" routerLinkActive="active" [disabled]="checkPayment()" >Confirm</button>
+                    <div></div>
+                    <button class="modalButton" (click)="closeModal()" >Close</button>
+                </div>
+                
+        
+                </div>
+            
+            <div class="modelPad">
+                <app-modal-keypad [received]="received" ></app-modal-keypad>
+            </div>
+        
+        
+        </div>
+
+        
+
+    </div>
+
+    <div id= "popupPg"></div>
+
+</div>
+

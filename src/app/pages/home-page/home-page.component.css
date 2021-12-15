@@ -1,0 +1,18 @@
+
+
+#mainPage{ 
+    position: fixed;
+    width: 70%;
+    border: 5px solid black;
+    margin: 10%;
+    background:linear-gradient(to right, yellow, #B8860B );
+    height: 500px;
+    
+}
+
+#mainPagebody{
+    display: grid;
+    grid-template-columns: 25% 49% 24%;
+    grid-gap: 1%;
+}
+

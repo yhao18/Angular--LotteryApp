@@ -1,0 +1,79 @@
+div.modalHead{
+    background-color: tomato;
+    max-width: 400px;
+}
+.modalBody{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    background-color: rgba(85, 114, 201, 0.836);
+    max-height: 200px;
+    max-width: 400px;
+    margin: 0;
+}
+
+div.modelPad{
+
+    margin: 20px;
+
+
+
+}
+
+div.calculateBody{
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    grid-gap:5px;
+    margin:15px 0px;
+    color:white;
+    font-size:15px;;
+   
+}
+
+div.calculatePart{
+    margin:10px;
+}
+
+h3{
+
+    color:white;
+    margin:0;
+}
+
+th.label{
+    text-align:left ;
+}
+
+div.inputBox{
+    background-color: rgba(9, 28, 61, 0.589);
+    text-align:right;
+}
+
+div.buttons{
+    display: grid;
+    grid-template-columns: 30%  40% 30%;
+}
+
+.modalButton{
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+div.modalContainer{
+    background-color: rgb(63, 66, 231);
+    border: 3px solid rgb(85, 54, 221);
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    z-index: 1000;
+}
+#popupPg { 
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+
