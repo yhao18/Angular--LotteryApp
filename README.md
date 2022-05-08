@@ -13,7 +13,7 @@ Developed the User Interface that will allow the cashiers for the lottery ticket
 5. After selecting 5 lottery numbers, placing a bet amount and pressing the CASH button, the cashier prompted with a customized modal, then enter the customer’s payment, via the keypad. Then the app would automatically calculate and display the customer’s change. 
 
 
-Link to the app published on Netlify: https://gentle-bienenstitch-9103be.netlify.app/home
+Link to the app published on Netlify: https://gentle-bienenstitch-9103be.netlify.app/
 
 
 ## Rules to Run the project
