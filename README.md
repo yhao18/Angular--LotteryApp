@@ -13,6 +13,9 @@ Developed the User Interface that will allow the cashiers for the lottery ticket
 5. After selecting 5 lottery numbers, placing a bet amount and pressing the CASH button, the cashier prompted with a customized modal, then enter the customer’s payment, via the keypad. Then the app would automatically calculate and display the customer’s change. 
 
 
+Link to the app published on Netlify: https://gentle-bienenstitch-9103be.netlify.app/home
+
+
 ## Rules to Run the project
 1. Create an empty folder and attach it to your workspace area in VS Code
 1. Open terminal
@@ -20,6 +23,4 @@ Developed the User Interface that will allow the cashiers for the lottery ticket
 1. Reinstall all your dependencies by running the following command **npm i**
 1. Start Angular project by running **ng serve --port 3001 --open**
 
-
-Link to the app published on Netlify: https://gentle-bienenstitch-9103be.netlify.app/home
 
