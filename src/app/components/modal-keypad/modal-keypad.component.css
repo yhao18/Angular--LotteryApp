@@ -1,0 +1,30 @@
+
+
+div.pad-small{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows:repeat(4,30px);
+  
+    
+   
+}
+
+button{
+    margin:2px;
+    border: whitesmoke;
+   
+}
+
+button#delete{
+    background-color: rgb(238, 88, 88);
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button#delete:hover{
+    background-color: rgb(170, 36, 36);
+}

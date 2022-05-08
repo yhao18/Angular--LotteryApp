@@ -1,0 +1,13 @@
+
+ 
+    <div class="pad-body">
+
+      <app-number-card *ngFor="let value of values" [value] ="value" (click)="numberSelect(value)"  [buttonDisabled]="buttonDisabled"></app-number-card>
+
+      <button class="span-two" (click)="openModal()" [disabled]="check()">CASH</button>
+      <button class="span-two" (click)="clear()"  [disabled]="check()">CLEAR</button>
+
+
+
+    </div>
+

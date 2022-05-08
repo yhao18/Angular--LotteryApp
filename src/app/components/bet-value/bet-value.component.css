@@ -1,0 +1,33 @@
+
+
+div.value-body{
+    
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 52%);
+    grid-template-rows:repeat(2 ,70%);
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 180px;
+
+}
+
+button.betValue{
+
+    cursor: pointer;
+    font-size: 2rem;
+    color:white ;
+    border:5px solid;
+    border-color: silver white gray;
+    margin:5%;
+    height: 80%;
+    width: 80%;
+    background:linear-gradient(to right, DodgerBlue, MidnightBlue, SteelBlue);
+    border-radius: 50%;
+}
+
+button.betValue:hover{
+    background: linear-gradient(to right, DarkBlue, Navy, Blue);
+    border-color: grey silver white;
+}

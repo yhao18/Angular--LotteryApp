@@ -1,0 +1,20 @@
+button{
+    cursor: pointer;
+    font-size: 150%;
+    color:#FFD700 ;
+    border:5px solid silver;
+    margin:5%;
+    width: 70%;
+    height: 90%;
+    background-color:black;
+}
+
+button:hover{
+    background-color: #2F4F4F;
+}
+
+button[disabled]{
+   
+    background-color: #447070;
+    
+  }

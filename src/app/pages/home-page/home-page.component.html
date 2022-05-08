@@ -1,0 +1,22 @@
+
+    <div id="mainPage">
+        <app-header></app-header>
+        <div id="mainPagebody">
+            <app-bet-value id="betValue" (betValue) = "addBetValue($event)"></app-bet-value>
+            <app-keypad id="keypad" 
+            (cashFlag)= "openModal($event)" [betValue]="betValue"
+            (clearFlag)="clear($event)" 
+            (numberArray)="receiveNumberArray($event)"></app-keypad>
+
+            <app-calculation id="calculation" [betValue]="betValue" [numberSlected] ="numberSlected"></app-calculation>
+
+        </div>
+        
+
+    </div>
+
+    <div class="modal">
+
+        <app-modal [modalDisplay] = "modalDisplay" [betValue]="betValue" [numberSlected]="numberSlected" (modalflag)="closeModal($event)"></app-modal>
+    </div>
+    
